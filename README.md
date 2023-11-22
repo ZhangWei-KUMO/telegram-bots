@@ -1,2 +1,6 @@
 # telegram-bots
-telegram bots
+
+这是一个电报机器人Demo开源代码，机器人分为：
+
+1. 消息推送机器人
+2. 客服机器人
