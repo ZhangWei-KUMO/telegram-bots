@@ -9,7 +9,6 @@ proxy = {
     "hostname": "127.0.0.1",
     "port": 1080,
 }
-
 bot = Client(
     "tubexerbot",
     api_id=os.environ.get("TELEGRAM_APP_ID"), 
@@ -20,6 +19,8 @@ bot = Client(
 
 @bot.on_message()
 async def echo(client: Client, message: Message):
+    
     await message.reply("message.text")
 
 bot.run()
+
